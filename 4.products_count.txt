@@ -1,0 +1,4 @@
+SELECT DISTINCT
+	COUNT(*) AS products_in_range
+FROM products
+WHERE price BETWEEN 20 AND 100;
